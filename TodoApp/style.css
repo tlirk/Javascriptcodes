@@ -1,0 +1,53 @@
+body{
+    padding: 0%;
+    margin:0%;
+    background-color: rgb(59, 98, 113);
+}
+.wrapper{
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin:20px auto 20px auto;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.wrapper .header{
+    color:blueviolet;
+    font-weight: bold;
+    font-size:30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text input{
+    color: blueviolet;
+}
+.todo-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-area ul{
+    list-style:none;
+    margin:10px;
+}
+
+
+.todo-area ul li{
+    padding: 5px;
+    text-decoration-style: none;
+    background-color: blueviolet;
+    opacity: 50%;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.todo-area ul li div{
+    background-color:yellow;
+    color: black;
+    padding:5px;
+    border-radius:5px;
+    margin-top: 5px;
+}
